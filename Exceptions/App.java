@@ -15,13 +15,10 @@ public class App
    }
    catch(InputMismatchException e)
    {
-    System.out.println("La date de naissance est incorretce.");
+  System.out.println("ERREUR : " + e.getMessage());
       }
 
-catch(Exception e)
-{
 
-}
 //   Scanner sc = new Scanner(System.in);
 //   System.out.print("Annee de naissance : ");
 //   int yearOfBirth = sc.nextInt();
